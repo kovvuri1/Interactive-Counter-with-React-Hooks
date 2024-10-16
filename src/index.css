@@ -1,13 +1,70 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 body {
+  background-color: #f7f9fc;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+h3{
+  text-align: center;
+  margin-bottom: 10px;
+ color: #2d2525;
+ font-style: italic;
+}
+h1 {
+  font-size: 3.5rem;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Container{
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
 }
+
+button {
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  margin: 10px 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s ease;
+}
+.increment-btn {
+  background-color: #4caf50;
+}
+.increment-btn:hover {
+  background-color: #43a047;
+  transform: translateY(-2px);
+}
+
+.decrement-btn {
+  background-color: #f44336;
+}
+
+.decrement-btn:hover {
+  background-color: #e53935;
+  transform: translateY(-2px);
+}
+
+.reset-btn {
+  background-color: #03a9f4;
+}
+
+.reset-btn:hover {
+  background-color: #0288d1;
+  transform: translateY(-2px);
+}
+
